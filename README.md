@@ -9,5 +9,5 @@
  <img src="img/blog-image-2.jpeg">
 
  ### Mockup in HTML & CSS
- <img src="img/mockup.png>
+ ![goal](./mockup.png)
 
