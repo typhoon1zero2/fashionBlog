@@ -1,4 +1,4 @@
-# fashionBlog
+# Fashion Blog Mock-up
 
 ## Prerequisites
  - HTML & CSS
