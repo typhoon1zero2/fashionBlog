@@ -32,12 +32,12 @@
  1. Use a [`border`](https://www.w3schools.com/css/css_border.asp) only on the left side of the page's `html` element. It should have a width of `5px` and a color of `lightgray`.
  2. Set the `body` element's `min-height` to be at least 100% of the [viewport height](https://alligator.io/css/viewport-units/). Also, use the `font-family` property to set the entire page to use `sans-serif` fonts.
  3. Give the `body` a `max-width` of `1000px` and center it on the page with the margin auto technique.
- 4. The border is too close to our text and we've got an issue with margin-collapse at the top of the page! Add padding to the header, mainand footerelements of 1remon the top and bottom and 2rem on the left and right to fix these issues.
- 5. For the h1on the page we want the color to be tomato.
- 6. Set all of the images to have a widthof 100%.
- 7. For your site navigation, you'll need to remove all of the padding on the ulelements and then set it's list-style-typeto none. It would be a good idea to use a class to style the navigation so that you can still make a bulleted list on your page. Use Flexbox to style the ulfor the navigation elements. On the top navigation use the space-betweenrule to have the menu items spread across their container evenly. Set the color for the anchors inside the main navigation to be lightgrayand the footer navigation to be tomato.
+ 4. The border is too close to our text and we've got an issue with [margin-collapse](https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0) at the top of the page! Add `padding` to the `header`, `main` and `footer` elements of `1rem` on the top and bottom and `2rem` on the left and right to fix these issues.
+ 5. For the `h1` on the page we want the color to be `tomato`.
+ 6. Set all of the images to have a `width` of `100%`.
+ 7. For your site navigation, you'll need to remove all of the padding on the `ul` elements and then set it's `list-style-type` to `none`. It would be a good idea to use a class to style the navigation so that you can still make a bulleted list on your page. Use Flex box to style the `ul` for the navigation elements. On the top navigation use the `space-between` rule to have the menu items spread across their container evenly. Set the color for the anchors inside the main navigation to be `lightgray` and the footer navigation to be `tomato`.
  8. Style the title of each of your blog posts so that they are larger.
-Style the 'continues...' anchor tags so that they are aligned to the right and are bold and tomato colored.
-Set the margin on the bottom the articletags to be 4rem. Also, add a 1pxsolid border in lightgrayto the bottom of each one and give each padding on the bottom of 2rem.
-For the ptag inside your article, use the pseudo-element ::first-letter to style the drop cap and set it's color to lightgray.
-Style the copyright so it is lightgray.
+ 9. Style the 'continues...' anchor tags so that they are aligned to the right and are bold and tomato colored.
+ 10. Set the margin on the bottom the `article` tags to be `4rem`. Also, add a `1px` solid border in `lightgray` to the bottom of each one and give each padding on the bottom of `2rem`.
+ 11. For the `p` tag inside your `article`, use the [pseudo-element ::first-letter](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter) to style the drop cap and set it's color to `lightgray`.
+ 12. Style the copyright so it is `lightgray`.
