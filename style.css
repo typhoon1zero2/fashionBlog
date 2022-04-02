@@ -1,21 +1,97 @@
 html {
-    border-left: 5px;
-    color: lightgray;
-    margin: auto;
+  border-left: 5px;
+  color: lightgray;
+  margin: auto;
 }
 body {
-    min-height: 100vh;
-    font-family: sans-serif;
-    max-width: 1000px;
-    margin: auto;
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }
-header, main , footer {
-    padding: 1rem 2rem 1rem 2rem;
+header,
+main,
+footer {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+time {
+  color: darkgray;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 h1 {
-    color: tomato;
+  color: tomato;
 }
 img {
-    width: 1000%;
+  width: 100%;
+}
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  color: black;
+}
+header > h1 {
+  font-size: 4em;
+  margin: 0;
+  font-weight: 100;
+  color: tomato;
 }
 
+header > h2 {
+  font-weight: lighter;
+  font-size: 2em;
+  color: rgb(35, 31, 31);
+}
+header nav > ul > li > a {
+    color: darkgray;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+footer nav > ul > li > a {
+  color: tomato;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+article {
+  border-bottom: 1px solid rgb(52, 47, 47);
+  margin-bottom: 3rem;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+}
+article > h1 {
+  font-weight: 100;
+  font-size: 3em;
+  color: black;
+}
+article > p {
+  color: (140, 134, 134);
+}
+article > time {
+  color: darkgray;
+  font-size: 2em;
+  font-weight: 100;
+}
+article > p::first-letter {
+  color: rgb(100, 103, 107);
+  font-size: 300%;
+  float: left;
+}
+
+.Continues {
+  display: flex;
+  justify-content: right;
+  color: tomato;
+  font-weight: bold;
+}
+.copyright {
+  color: rgb(140, 134, 134);
+}
